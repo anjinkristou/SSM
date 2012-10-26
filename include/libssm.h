@@ -9,7 +9,6 @@
 #define __LIB_SSM_H__
 
 #include <pthread.h>
-#include <sys/shm.h>
 
 #include "ssm.h"
 

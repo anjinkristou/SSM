@@ -10,7 +10,7 @@ AM_CXXFLAGS = $(AM_CFLAGS)
 ## libssm
 lib_LTLIBRARIES = libssm.la
 
-libssm_la_SOURCES = libssm-time.c libssm-shm.c libssm.c
+libssm_la_SOURCES = libssm-time.c libssm-shm.c libssm.c smm.c
 
 libssm_la_CFLAGS = $(AM_CFLAGS) -Werror
 libssm_la_CXXFLAGS = $(libssm_la_CFLAGS)
